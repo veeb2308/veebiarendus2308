@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+
+.tiitel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sisuala {
+    display: flex;
+    height: 30vh;
+}
+
+.kylgpaan {
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.artikkel {
+    width: 70%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.jalus {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.reklaam-pilt {
+    width: 200px;
+    display: inline-block;
+}
+
+.jalusmenyy ul {
+    list-style-type: none;
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+* {
+ box-sizing: border-box  
+}
+
+.konteiner {
+    background-color: darkcyan;
+    width: 80%;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.kast {
+    width: 150px;
+    height: 150px;
+    background-color: darkorange;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    /*margin: 1rem;*/
+    padding: 3rem;
+}
