@@ -1,0 +1,7 @@
+.paiskonteiner {
+    width: 100%;
+    height: 778px;
+    background-image: url(./assets/Hills.png);
+    background-position: center;
+    background-size: cover;
+}
