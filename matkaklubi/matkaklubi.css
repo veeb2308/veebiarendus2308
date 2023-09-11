@@ -20,6 +20,31 @@ body {
     height: 64px;
 }
 
+.pais-menyy {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16.67px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2.67px;
+    margin-left: auto
+}
+
+.pais-menyy ul {
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.pais-menyy li {
+    padding: 0px;
+    margin-left: 10px;
+    min-width: 100px;
+}
+
+.pais-menyy a {
+    color: #0B0B0B;
+    text-decoration: none;
+}
+
 .pais-nimi {
     width: 126px;
     font-weight: 800;
@@ -29,8 +54,43 @@ body {
     line-height: 30px;
 }
 
-@media screen and (min-width: 1000px) {
+.pealkiri-pilt {
+    display: none;
+}
+
+.rida {
+    display: flex;
+    color: #0B0B0B;
+    text-transform: uppercase;
+}
+
+.rida h2 {
+    font-size: 39.57px;
+    letter-spacing: 0px;
+    font-weight: 800;
+}
+
+.liblikas1 {
+    width: 75.27px;
+    height: 66.04px;
+    margin-top: -40px;
+    margin-left: auto;
+}
+
+.pealkiri-kastid {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
     .paiskonteiner {
         background-image: url(./assets/Hills@2x.png);
+    }
+
+    .pealkiri-pilt {
+        display: block;
+    }
+
+    .pealkiri-kastid {
+        margin-top: 210px;
     }
 }
