@@ -1,0 +1,13 @@
+body {
+    background-color: darkkhaki;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 1rem;
+}
